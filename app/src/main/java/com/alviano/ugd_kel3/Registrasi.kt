@@ -33,7 +33,7 @@ class Registrasi : AppCompatActivity() {
         val btnLogin: TextView = findViewById(R.id.tvLogin)
 
         btnDaftar.setOnClickListener(View.OnClickListener {
-            var checkRegistrasi = false
+            var checkRegistrasi = true
             var username: String = inputUsername.getText().toString()
             var password: String = inputPassword.getText().toString()
             var tanggalLahir: String = inputTl.getText().toString()
@@ -43,20 +43,22 @@ class Registrasi : AppCompatActivity() {
             if(username.isEmpty()){
                 inputUsername.setError("Username must be filled with text")
                 checkRegistrasi = false
-            }else if(password.isEmpty()){
+            }
+            if(password.isEmpty()){
                 inputPassword.setError("Password must be filled with text")
                 checkRegistrasi = false
-            }else if(tanggalLahir.isEmpty()){
+            }
+            if(tanggalLahir.isEmpty()){
                 inputTl.setError("Date of birth must be filled with text")
                 checkRegistrasi = false
-            }else if(noTelp.isEmpty()){
+            }
+            if(noTelp.isEmpty()){
                 inputNoTelp.setError("Phone number must be filled with text")
                 checkRegistrasi = false
-            }else if(email.isEmpty()) {
+            }
+            if(email.isEmpty()) {
                 inputEmail.setError("Email must be filled with text")
                 checkRegistrasi = false
-            }else{
-                checkRegistrasi = true
             }
             if(!checkRegistrasi) return@OnClickListener
             val moveLogin = Intent(this@Registrasi, MainActivity::class.java)

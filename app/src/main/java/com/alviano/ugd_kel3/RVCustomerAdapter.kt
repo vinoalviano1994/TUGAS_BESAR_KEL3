@@ -17,6 +17,8 @@ class RVCustomerAdapter(private val data: Array<customer>) : RecyclerView.Adapte
         val currentItem = data[position]
         holder.tvNama.text = currentItem.nama
         holder.tvDetails.text = "${currentItem.tanggalLahir} - ${currentItem.email}"
+        holder.tvNoTelp.text = currentItem.noTelp
+
     }
 
     override fun getItemCount(): Int {
@@ -26,5 +28,6 @@ class RVCustomerAdapter(private val data: Array<customer>) : RecyclerView.Adapte
     class viewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         val tvNama : TextView = itemView.findViewById(R.id.tv_nama)
         val tvDetails : TextView = itemView.findViewById(R.id.tv_details)
+        val tvNoTelp : TextView = itemView.findViewById(R.id.tv_noTelp)
     }
 }
