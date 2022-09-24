@@ -10,6 +10,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
+//coba commit
 class homeActivity : AppCompatActivity() {
     private val accountFragment = AccountFragment()
     private val homeFragment = HomeFragment()
