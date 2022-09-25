@@ -3,13 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/activity_home.xml" value="0.17239583333333333" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/fragment_customer.xml" value="0.17239583333333333" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/fragment_home.xml" value="0.17239583333333333" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/fragment_pesanan.xml" value="0.25" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/registrasi.xml" value="0.17239583333333333" />
-        <entry key="..\:/Project android PBP/TUGAS_BESAR_KEL3/app/src/main/res/layout/rv_item_customer.xml" value="0.33" />
         <entry key="..\:/Project android PBP/ugdkel3/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Project android PBP/ugdkel3/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Project android PBP/ugdkel3/app/src/main/res/layout/registrasi.xml" value="0.1" />
@@ -17,17 +10,6 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugd_kel3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.165" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugd_kel3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2135" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugd_kel3/app/src/main/res/layout/activity_main.xml" value="0.45" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2085" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/activity_home.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/activity_main.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/fragment_customer.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/fragment_home.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/fragment_pesanan.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/registrasi.xml" value="0.18568840579710144" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/menu/bottom_navigation.xml" value="0.335" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3/app/src/main/res/layout/activity_home.xml" value="0.27314814814814814" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3/app/src/main/res/menu/bottom_navigation.xml" value="0.165" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2085" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/layout/activity_home.xml" value="0.18568840579710144" />
@@ -40,6 +22,12 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3 - Copy/app/src/main/res/menu/bottom_navigation.xml" value="0.335" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3/app/src/main/res/layout/activity_home.xml" value="0.27314814814814814" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/ugdkel3/app/src/main/res/menu/bottom_navigation.xml" value="0.165" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/layout/activity_splash_screen.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/layout/fragment_customer.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/layout/fragment_home.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/layout/rv_item_customer.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/vinos/AndroidStudioProjects/TUGAS_BESAR_KEL3/app/src/main/res/menu/bottom_navigation.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/vinos/AndroidStudioProjects/ugdkel3/ugdyesi/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2985" />
         <entry key="..\:/Users/vinos/AndroidStudioProjects/ugdkel3/ugdyesi/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/vinos/AndroidStudioProjects/ugdkel3/ugdyesi/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
