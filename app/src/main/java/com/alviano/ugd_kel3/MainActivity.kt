@@ -7,11 +7,13 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.alviano.ugd_kel3.room.CustomerDB
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
-import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
+    val db by lazy { CustomerDB(this) }
+    lateinit var noteAdapter: RVCustomerAdapter
     private lateinit var inputUssername: TextInputEditText
     private lateinit var inputPassword: TextInputEditText
     private lateinit var mainLayout: ConstraintLayout
