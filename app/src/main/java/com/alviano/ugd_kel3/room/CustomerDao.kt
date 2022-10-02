@@ -1,6 +1,7 @@
 package com.alviano.ugd_kel3.room
 
 import androidx.room.*
+import com.alviano.ugd_kel3.entity.Customer
 
 
 @Dao
@@ -15,8 +16,8 @@ interface CustomerDao {
     suspend fun deleteCustomer(customer: Customer)
 
     @Query("SELECT * FROM customer")
-    suspend fun getCustomer(): List<Customer>
+    suspend fun getCustomers(): List<Customer>
 
-    @Query("SELECT * FROM customer WHERE id=:customer_id")
-    suspend fun getCustomer(customer_id: Int) : List<Customer>
+    @Query("SELECT * FROM customer WHERE id=:id_customer")
+    suspend fun getCustomer(id_customer: Int): List<Customer>
 }

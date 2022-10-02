@@ -5,9 +5,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.alviano.ugd_kel3.entity.customer
+import com.alviano.ugd_kel3.entity.Customer
 
-class RVCustomerAdapter(private val data: Array<customer>) : RecyclerView.Adapter<RVCustomerAdapter.viewHolder>() {
+class RVCustomerAdapter(private val data: Array<Customer>) : RecyclerView.Adapter<RVCustomerAdapter.viewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): viewHolder {
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.rv_item_customer, parent, false)
         return viewHolder(itemView)

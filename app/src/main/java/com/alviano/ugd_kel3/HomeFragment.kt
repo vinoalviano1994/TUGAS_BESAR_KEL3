@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.alviano.ugd_kel3.entity.customer
+import com.alviano.ugd_kel3.entity.Customer
 
 class HomeFragment : Fragment(){
     override fun onCreateView(

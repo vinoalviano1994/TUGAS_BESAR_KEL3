@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.alviano.ugd_kel3.entity.customer
+import com.alviano.ugd_kel3.entity.Customer
 
 
 
@@ -19,13 +19,13 @@ class Fragment_customer : Fragment() {
         return inflater.inflate(R.layout.fragment_customer, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?){
-        super.onViewCreated(view, savedInstanceState)
-        val layoutManager = LinearLayoutManager(context)
-        val adapter : RVCustomerAdapter= RVCustomerAdapter(customer.listOfcustomer)
-        val rvCustomer : RecyclerView = view.findViewById(R.id.rv_customer)
-        rvCustomer.layoutManager = layoutManager
-        rvCustomer.setHasFixedSize(true)
-        rvCustomer.adapter = adapter
-    }
+//    override fun onViewCreated(view: View, savedInstanceState: Bundle?){
+//        super.onViewCreated(view, savedInstanceState)
+//        val layoutManager = LinearLayoutManager(context)
+//        val adapter : RVCustomerAdapter= RVCustomerAdapter(Customer.listOfCustomer)
+//        val rvCustomer : RecyclerView = view.findViewById(R.id.rv_customer)
+//        rvCustomer.layoutManager = layoutManager
+//        rvCustomer.setHasFixedSize(true)
+//        rvCustomer.adapter = adapter
+//    }
 }
