@@ -26,15 +26,16 @@ class Registrasi : AppCompatActivity() {
     private lateinit var inputNoTelp: TextInputEditText
     private lateinit var inputEmail: TextInputEditText
     private lateinit var mainLayout: ConstraintLayout
-    private val binding: ActivityMainBinding? = null
+    private var binding: ActivityMainBinding? = null
     private val CHANNEL_ID_1 = "channel_notification_01"
-    private val CHANNEL_ID_2 = "channel_notification_02"
     private val notificationId1 = 101
-    private val notificationId2 = 102
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.registrasi)
+
+
 
         setTitle("User Login")
         inputUsername = findViewById(R.id.inputLayoutUsername)
@@ -45,6 +46,13 @@ class Registrasi : AppCompatActivity() {
         mainLayout = findViewById(R.id.mainLayout)
         val btnDaftar: Button = findViewById(R.id.btnDaftar)
         val btnLogin: TextView = findViewById(R.id.tvLogin)
+
+
+        createNotificationChannel()
+
+        binding!!.btnDaftar.setOnClickListener{
+            sendNotification()
+        }
 
         btnDaftar.setOnClickListener(View.OnClickListener {
             var checkRegistrasi = true
@@ -116,5 +124,48 @@ class Registrasi : AppCompatActivity() {
             startActivity(moveLogin)
         })
 
+    }
+
+    private fun createNotificationChannel(){
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+            val name = "Notification Title"
+            val descriptionText = "Notification Description"
+
+            val channel1 = NotificationChannel(CHANNEL_ID_1, name, NotificationManager.IMPORTANCE_DEFAULT).apply {
+                description =descriptionText
+            }
+
+            val notificationManager: NotificationManager =
+                getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            notificationManager.createNotificationChannel(channel1)
+        }
+    }
+
+    private fun sendNotification(){
+        val intent: Intent = Intent(this, MainActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        }
+
+        val pendingIntent: PendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_MUTABLE)
+
+        val broadCastIntent: Intent = Intent(this, NotificationReceiver::class.java)
+        broadCastIntent.putExtra("toastMessage", binding?.etUsername?.text.toString())
+        val actionIntent = PendingIntent.getBroadcast(this, 0, broadCastIntent, PendingIntent.FLAG_MUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
+
+        val builder = NotificationCompat.Builder(this, CHANNEL_ID_1)
+            .setSmallIcon(R.drawable.ic_baseline_message_24)
+            .setContentTitle("Berhasil Register !")
+            .setContentText("Silahkan Login untuk Perawatan :)")
+            .setCategory(NotificationCompat.CATEGORY_MESSAGE)
+            .setColor(Color.RED)
+            .setAutoCancel(true)
+            .setOnlyAlertOnce(true)
+            .setContentIntent(pendingIntent)
+            .addAction(R.mipmap.ic_launcher, "Toast", actionIntent)
+            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+
+        with(NotificationManagerCompat.from(this)){
+            notify(notificationId1, builder.build())
+        }
     }
 }

@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.alviano.ugd_kel3.databinding.ActivityMainBinding
-import com.alviano.ugd_kel3.room.CustomerDB
+
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
