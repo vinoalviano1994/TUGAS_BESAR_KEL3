@@ -50,7 +50,7 @@ class Registrasi : AppCompatActivity() {
 
         createNotificationChannel()
 
-        binding!!.btnDaftar.setOnClickListener{
+        btnDaftar.setOnClickListener{
             sendNotification()
         }
 
