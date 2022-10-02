@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android-extensions'
     id 'com.google.gms.google-services'
-    id 'kotlin-android-extensions'
 }
 apply plugin: 'kotlin-kapt'
 
@@ -38,11 +37,6 @@ android {
         enabled = true
     }
 }
-
-
-//viewBinding{
-//    enabled = true
-//}
 
 dependencies {
 

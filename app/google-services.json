@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "507251681880",
-    "project_id": "ugd-kel3",
-    "storage_bucket": "ugd-kel3.appspot.com"
+    "project_number": "593654455648",
+    "project_id": "atma-salon-97c99",
+    "storage_bucket": "atma-salon-97c99.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:507251681880:android:d01ef4435e99a9bb27f82d",
+        "mobilesdk_app_id": "1:593654455648:android:23bf2e5ff15d0ce2001205",
         "android_client_info": {
           "package_name": "com.alviano.ugd_kel3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "507251681880-qnd085jcdtq2r2i03fse4da5j6akv7qt.apps.googleusercontent.com",
+          "client_id": "593654455648-3l0lhhcd242afajpusr6cds5lvm8levk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3RJNx9RYBpxZMQFtv92Ve8LLspairVlc"
+          "current_key": "AIzaSyClOb44azZrSakun_cH3aX9SlwsUKuLK6U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "507251681880-qnd085jcdtq2r2i03fse4da5j6akv7qt.apps.googleusercontent.com",
+              "client_id": "593654455648-3l0lhhcd242afajpusr6cds5lvm8levk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
