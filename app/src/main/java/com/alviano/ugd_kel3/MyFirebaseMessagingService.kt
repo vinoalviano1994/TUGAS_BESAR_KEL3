@@ -32,6 +32,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setSmallIcon(R.drawable.ic_baseline_message_24)
             .setContentTitle(messageTitle)
             .setContentText(messageBody)
+            //.setLargeIcon(icon_large)
             .setAutoCancel(true)
             .setSound(defaultSoundUri)
             .setContentIntent(pendingIntent)
