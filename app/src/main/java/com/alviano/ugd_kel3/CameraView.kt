@@ -11,7 +11,7 @@ class CameraView(context: Context?, private val mCamera: Camera) : SurfaceView(c
     SurfaceHolder.Callback {
         private val mHolder: SurfaceHolder
         init {
-            mCamera.setDisplayOrientation(90)
+            mCamera.setDisplayOrientation(90)//
             mHolder = holder
             mHolder.addCallback(this)
             mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS)
