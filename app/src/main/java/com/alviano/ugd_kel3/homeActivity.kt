@@ -27,8 +27,8 @@ class homeActivity : AppCompatActivity() {
         bottomNav.setOnNavigationItemReselectedListener{
             when (it.itemId){
                 R.id.menu_home -> {
-                    changeFragment(homeFragment)
-                    return@setOnNavigationItemReselectedListener
+                    val intent = Intent(this, ProdukView::class.java)
+                    startActivity(intent)
                 }
                 R.id.menu_Order -> {
                     changeFragment(costumerFragment)
