@@ -4,10 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
-import android.view.MenuItem
-import android.widget.Button
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
+import com.alviano.ugd_kel3.fragment.AccountFragment
+import com.alviano.ugd_kel3.fragment.Fragment_customer
+import com.alviano.ugd_kel3.fragment.HomeFragment
+import com.alviano.ugd_kel3.fragment.PesananFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class homeActivity : AppCompatActivity() {

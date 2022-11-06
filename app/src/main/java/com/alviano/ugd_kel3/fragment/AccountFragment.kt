@@ -1,4 +1,4 @@
-package com.alviano.ugd_kel3
+package com.alviano.ugd_kel3.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

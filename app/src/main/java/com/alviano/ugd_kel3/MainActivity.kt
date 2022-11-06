@@ -1,6 +1,7 @@
 package com.alviano.ugd_kel3
 
 import android.content.Intent
+import android.hardware.Camera
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -14,6 +15,8 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity : AppCompatActivity() {
+    private var  mCamera: Camera? = null
+    private var mCameraView: CameraView? = null
     var binding: ActivityMainBinding? = null
     val db by lazy { CustomerDB(this) }
     lateinit var noteAdapter: RVCustomerAdapter
