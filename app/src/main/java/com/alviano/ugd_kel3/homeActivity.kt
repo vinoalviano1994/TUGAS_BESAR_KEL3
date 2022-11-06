@@ -1,5 +1,6 @@
 package com.alviano.ugd_kel3
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -34,7 +35,8 @@ class homeActivity : AppCompatActivity() {
                     return@setOnNavigationItemReselectedListener
                 }
                 R.id.menu_account -> {
-
+                    val moveCamera = Intent(this@homeActivity, Camera::class.java)
+                    startActivity(moveCamera)
                 }
             }
         }
