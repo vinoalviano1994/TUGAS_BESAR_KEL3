@@ -34,6 +34,10 @@ class homeActivity : AppCompatActivity() {
                     changeFragment(costumerFragment)
                     return@setOnNavigationItemReselectedListener
                 }
+                R.id.menu_notifikasi -> {
+                    val moveMap = Intent(this@homeActivity, MapActivity::class.java)
+                    startActivity(moveMap)
+                }
                 R.id.menu_account -> {
                     val moveCamera = Intent(this@homeActivity, Camera::class.java)
                     startActivity(moveCamera)
