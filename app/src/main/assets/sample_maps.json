@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": -7.779433,
+          "lng": 110.415782
+        }
+      },
+      "name": "Atma Salon 3",
+      "vicinity": "JL. Babarsari No.43, Janti, Caturunggal, Kec. Depok, Daerah Istimewa Yogyakarta 55281"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": -7.7762145,
+          "lng": 110.390458
+        }
+      },
+      "name": "Atma Salon 1",
+      "vicinity": "Jl. Mrican Baru No.28, Mrican, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": -7.7598839,
+          "lng": 110.393285
+        }
+      },
+      "name": "Atma Salon Hartono Mall",
+      "vicinity": "Jl. Ring Road Utara, Kaliwaru, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281"
+    }
+  ],
+  "status": "OK"
+}
