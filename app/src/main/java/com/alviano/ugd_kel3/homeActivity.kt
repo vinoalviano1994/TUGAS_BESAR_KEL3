@@ -29,7 +29,7 @@ class homeActivity : AppCompatActivity() {
                 R.id.menu_home -> {
                     val intent = Intent(this, ProdukView::class.java)
                     startActivity(intent)
-                }//
+                }
                 R.id.menu_Order -> {
                     changeFragment(costumerFragment)
                     return@setOnNavigationItemReselectedListener
