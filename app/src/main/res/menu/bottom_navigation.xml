@@ -8,6 +8,10 @@
         android:title="Order"
         android:icon="@drawable/ic_baseline_event_note_24"/>
 
+    <item android:id="@+id/scan"
+        android:title="QR"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"/>
+
     <item android:id="@+id/menu_notifikasi"
         android:title="Notification"
         android:icon="@drawable/ic_baseline_map_24"/>

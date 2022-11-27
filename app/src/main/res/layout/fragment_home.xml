@@ -8,10 +8,13 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/bandicam_2022_09_01_08_52_29_903" />
 
+    <Button
+        android:id="@+id/btn_isi_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservasi Salon"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"/>
 </RelativeLayout>
