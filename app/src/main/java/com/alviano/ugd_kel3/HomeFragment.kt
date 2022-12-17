@@ -26,10 +26,10 @@ class HomeFragment : Fragment(){
         super.onViewCreated(view, savedInstanceState)
         val layoutManager = LinearLayoutManager(context)
 
-        view.btn_isi_data.setOnClickListener { view ->
-            Log.d("btn_isi_data", "Selected")
-            val intent = Intent(requireActivity(), IsiDataActivity::class.java)
-            startActivity(intent)
-        }
+//        view.btn_isi_data.setOnClickListener { view ->
+//            Log.d("btn_isi_data", "Selected")
+//            val intent = Intent(requireActivity(), IsiDataActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 }
