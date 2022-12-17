@@ -29,7 +29,7 @@ class Registrasi : AppCompatActivity() {
     private var binding: ActivityMainBinding? = null
     private val CHANNEL_ID_1 = "channel_notification_01"
     private val notificationId1 = 101
-//
+//latest
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
