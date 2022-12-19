@@ -7,10 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/FLCamera" />
+        android:id="@+id/FLCamera"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -18,5 +19,29 @@
         android:id="@+id/imgClose"
         android:layout_gravity="center|bottom"
         android:background="@drawable/ic_baseline_close_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:id="@+id/idTVHeading"
+        android:padding="4dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/idTVSensorStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"/>
+
 
 </FrameLayout>
