@@ -2,7 +2,7 @@ package com.alviano.ugd_kel3.api
 
 class ProdukApi {
     companion object{
-        val  BASE_URl = "http://192.168.2.25/TUBES_API/public/api/"
+        val  BASE_URl = "http://192.168.2.25/salon-apiserver/public/api/"
 
         val GET_ALL_URL = BASE_URl+ "produk/"
         val GET_BY_ID_URL = BASE_URl+"produk/"

@@ -30,7 +30,7 @@
         </activity>
         <activity
             android:name=".addEditProduk"
-            android:exported="false">
+            android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -46,7 +46,7 @@
             android:exported="false" />
         <activity
             android:name=".Registrasi"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".homeActivity"
             android:exported="false" />
